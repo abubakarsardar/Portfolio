@@ -1,0 +1,51 @@
+.stats-container {
+    font-family: 'Arial', sans-serif;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    text-align: center;
+  }
+  
+  .stat-item {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: transparent;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .stat-number {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 8px;
+
+  }
+  
+  .stat-title {
+    font-size: 1.1rem;
+    color: #fff;
+  }
+  .status-icons{
+    font-size: 35px;
+    justify-self: center;
+    padding-right: 12px;
+    color: #10b981;
+  }
+  
+  @media (max-width: 768px) {
+    .stats-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .stats-grid {
+      grid-template-columns: 1fr;
+    }
+  }

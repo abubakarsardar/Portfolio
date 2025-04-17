@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --bg-color: #202020;
+}
+.Header{
+  width: 100%;
+}
+.navbar-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  height: 4rem;
+  background-color: #202020;
+}
+.navbar-icons ul{
+  display: flex;
+  list-style: none;
+  letter-spacing: 1px;
+
+}
+.nav-app-icons ul{
+  display: flex;
+  list-style: none;
+  
+}
+.icons{
+  text-decoration: none;
+  color: #fff;
+  display: inline;
+  margin: 0 0.4rem;
+  font-size: 17px;
+}
+.nav-icon{
+  margin: 0 0.7rem;
+  text-decoration: none;
+  font-size: 17px;
+  color: #fff;
+  display: inline;
+}
+.navbar-icons ul li{
+  gap: 10px;
+  display: inline;
+}
+.icon{
+  color: #10b981;
+  font-size: 17px;
+
+}
+.navbar-logo{
+  font-size: 25px;
+  letter-spacing: 1.5px;
+}
+.logo-icon {
+  text-decoration: none;
+  font-size: 22px;
+  color: #fff;
+}

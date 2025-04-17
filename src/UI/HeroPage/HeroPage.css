@@ -1,0 +1,158 @@
+/* JohnDevPortfolio.css */
+
+body {
+    margin: 0;
+    font-family: monospace;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .portfolio-container {
+    min-height: 100vh;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #444;
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.25rem;
+  }
+  
+  .navbar-logo .icon {
+    margin-right: 0.5rem;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    font-size: 0.9rem;
+  }
+  
+  .navbar-links li {
+    cursor: pointer;
+  }
+  
+  .navbar-icons {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.2rem;
+  }
+  
+  /* Main section */
+  .main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7rem 2rem;
+  }
+  
+
+  @media (min-width: 768px) {
+    .main-section {
+      flex-direction: row;
+      justify-content: center;
+      gap: 14rem;
+    }
+  }
+  
+  /* Image styling */
+  .profile-pic-container {
+    width: 350px;
+    height: 350px;
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    transform: rotate(0);
+  }
+  
+  .profile-pic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: rotate(-0);
+  }
+  
+  /* Text */
+  .intro-text {
+    max-width: 600px;
+    text-align: left;
+    cursor: default;
+  }
+  
+  .intro-tag {
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+  
+  .intro-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    line-height: 1.4;
+  }
+  .Hero-span{
+    color: rgb(214, 118, 118);
+    font-size: 20px;
+  }
+  
+  .highlight {
+    color: #10b981;
+  }
+  
+  .underscore {
+    color: #10b981;
+  }
+  
+  .intro-description {
+    color: #aaa;
+    margin-top: 1rem;
+    line-height: 1.6;
+    font-size: 17px;
+    letter-spacing: 1px;
+  }
+  
+  .tech {
+    color: rgb(214, 118, 118);
+  }
+  
+  .tech-icons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+  }
+  
+  .more-text {
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: #ccc;
+  }
+
+  .javaScript{
+    color: rgb(4, 172, 4);
+    font-size: 35px;
+
+  }
+  .djava{
+    color: rgb(30, 172, 228);
+    font-size: 35px;
+  }
+.react{
+    color: #61DBFB;
+    font-size: 35px;
+}
+.angular{
+    font-size: 35px;
+    color: #10b981;
+}

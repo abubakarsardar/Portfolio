@@ -1,0 +1,32 @@
+[
+    { 
+      "title": "Web & App Development",
+       "icon": "💻" ,
+       "Details" :  "We develop high-quality web and mobile applications that meet your business needs and exceed your expectations."
+    },
+    { 
+      "title": "Database Management", 
+      "icon": "🗄️" ,
+      "Details" : "We provide expert database management services including design, optimization, security, backups, performance tuning, migration, and ongoing support for businesses."
+  },
+    {
+       "title": "API Development", 
+       "icon": "🎯",
+       "Details" : "We provide reliable API development services, ensuring seamless integration, high performance, scalability, security, and smooth communication between applications and systems."
+    },
+    {
+       "title": "Performance Optimization", 
+       "icon": "🔄",
+       "Details" : "We provide performance optimization services, enhancing database speed, query efficiency, indexing, load handling, caching strategies, and overall system responsiveness."
+    },
+    { 
+     "title": "E-commerce Solutions", 
+     "icon": "🛒" ,
+     "Details" : "We provide comprehensive e-commerce solutions including website development, payment integration, product management, SEO, mobile optimization, and customer support tools."
+  },
+    { 
+      "title": "Integrating AI", 
+      "icon": "✨" ,
+      "Details" : "We provide AI integration services, including automation, machine learning, natural language processing, predictive analytics, and intelligent system development for businesses."
+  }
+  ]

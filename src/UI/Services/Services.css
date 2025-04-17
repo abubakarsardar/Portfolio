@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #111;
+    color: #ccc;
+  }
+  
+  .services-section {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .subtitle {
+    color: #00ff9f;
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  .title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 40px;
+  }
+  
+  .title span {
+    color: #b0c4de;
+  }
+  
+  .services-grid {
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+  
+  .service-card {
+    background-color: #1b1b1b;
+    border: 1px solid #333;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: left;
+    transition: transform 0.2s ease;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px);
+    border-color: #00ff9f;
+  }
+  
+  .service-card .icon {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .service-card h3 {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .service-card p {
+    color: #999;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  .service-span{
+    color: #00ff9f;
+  }
+  .service-footer p{
+    margin: 5rem 0;
+    font-size: 19px;
+  }
