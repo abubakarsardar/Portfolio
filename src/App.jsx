@@ -4,6 +4,7 @@ import { Home } from "./components/Home";
 import { About } from "./components/About";
 import { AppLayout } from "./UI/AppLayout";
 import { Contact } from "./components/Contact/Contact";
+import { ErrorPage } from "./UI/ErrorPage/ErrorPage";
 
 
 
@@ -11,6 +12,7 @@ const router = createBrowserRouter([
   {
     path: '/',
     element : <AppLayout />,
+    errorElement : <ErrorPage />,
     children :[{
       path: '/',
       element: <Home />,

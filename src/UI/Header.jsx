@@ -14,7 +14,7 @@ export const Header = () =>{
                  </div>
               <div className="navbar-icons">
                 <ul>
-                    <li>  <NavLink to = "/About" className="nav-icon" >About</NavLink>  </li>
+                    <li>  <NavLink to="/about" className="nav-icon" >About</NavLink>  </li>
                     <li> <a href={Resume} download={Resume} className="nav-icon" >Resume</a> </li>
                     <li>  <NavLink to = "/Contact" className="nav-icon" >Contact</NavLink>  </li>
                 </ul>
