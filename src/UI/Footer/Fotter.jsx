@@ -1,11 +1,16 @@
 import React from "react";
 import "../Footer/Footer.css";
 import { FaInstagram, FaLinkedin, FaFacebook, FaCode } from "react-icons/fa";
-// import { RxCross1 } from "react-icons/rx";
+import { BiArrowToTop } from "react-icons/bi";
 import { NavLink } from "react-router-dom";
 import Resume from "../../Resume/Resume.pdf";
 
 export default function Footer() {
+
+   const GoToTop = ()=>{
+    window.scrollTo({top:0,left:0,behavior:"smooth"})
+   }
+
   return (
     <footer className="footer">
       <div className="footer-brand">
@@ -28,6 +33,7 @@ export default function Footer() {
         <li> <a href={Resume} download={Resume} className="footer-icons" >Resume</a> </li>
         <li><NavLink to = "/Contact" className="footer-icons">Contacts</NavLink> </li>
       </ul>
+      <div className="GoTop" onClick={GoToTop} ><BiArrowToTop /></div>
 
 
     </footer>

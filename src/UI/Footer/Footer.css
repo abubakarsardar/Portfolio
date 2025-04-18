@@ -7,6 +7,7 @@
     padding: 2rem 1rem;
     position: relative;
     font-family: 'Arial', sans-serif;
+    height: 18vh;
   }
   
   .footer-brand {
@@ -57,4 +58,11 @@
   }
   .footer-socials li{
     list-style: none;
+  }
+  .GoTop{
+    font-size: 3rem;
+    color: #10b981;
+    cursor: pointer ;
+    width: 5rem;
+    float: right ;
   }
