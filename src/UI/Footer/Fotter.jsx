@@ -15,7 +15,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer-brand">
         <FaCode className="footer-icon" />
-        <span>John.Dev</span>
+        <span>AbuBakar.Dev</span>
       </div>
 
       <div className="footer-socials">
