@@ -11,11 +11,11 @@ export const Home =()=>{
     return (
         <>
         <HeroPage />
+        <Status /> 
         <Services />
         <Cooperation />
         <Experience />
         <MySkills />
-        <Status />
         </>
     )
 }
