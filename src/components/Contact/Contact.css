@@ -52,3 +52,17 @@
     margin-bottom: 3rem;
     margin-top: 2rem;
   }
+  .contact-btn:hover{
+    background-color: transparent;
+  }
+  @media screen and (max-width: 768px) {
+    .container-title {
+      font-size: 30px;
+    }
+    .contact-wrapper {
+      & form {
+        width: 100%;
+      }
+    }
+    
+  }
