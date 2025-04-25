@@ -14,7 +14,7 @@ export const Contact = () => {
             <input
               type="text"
               className="form-control"
-              placeholder="enter your name"
+              placeholder="Enter your name"
               name="name"
               required
               autoComplete="off"
